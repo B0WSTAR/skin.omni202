@@ -570,12 +570,16 @@
                             <label>$VAR[ListSubLabelVar]</label>
                         </control>
                         <control type="label">
-                            <right>20</right>
+                            <right>80</right>
                             <height>118</height>
                             <font>font15</font>
                             <align>right</align>
                             <label>$VAR[ListRightLabel]</label>
                         </control>
+                        <include content="OverlayList">
+                            <param name="OverlayListTop" value="28" />
+                            <param name="OverlayListWidth" value="1050" />
+                        </include>
                     </itemlayout>
                     <focusedlayout height="120" width="1050" condition="Window.IsActive(videoplaylist) | Container.Content(videos) | Container.Content(files)">
                         <include content="SelectedItemBackground">
@@ -641,12 +645,16 @@
                             <label>$VAR[ListSubLabelVar]</label>
                         </control>
                         <control type="label">
-                            <right>20</right>
+                            <right>80</right>
                             <height>118</height>
                             <font>font15</font>
                             <align>right</align>
                             <label>$VAR[ListRightLabel]</label>
                         </control>
+                        <include content="OverlayList">
+                            <param name="OverlayListTop" value="28" />
+                            <param name="OverlayListWidth" value="1050" />
+                        </include>
                     </focusedlayout>
                     <itemlayout height="120" width="1050" condition="Container.Content(episodes)">
                         <control type="image">
