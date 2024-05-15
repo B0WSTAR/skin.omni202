@@ -567,7 +567,7 @@
     <variable name="OSVar">
         <value condition="System.Platform.Windows">special://skin/extras/icons/windows.png</value>
         <value condition="System.Platform.Android">special://skin/extras/icons/android.png</value>
-        <value condition="System.Platform.Linux | System.Platform.Linux.RaspberryPi">special://skin/extras/icons/linux.png</value>
+        <value condition="System.Platform.Linux">special://skin/extras/icons/linux.png</value>
         <value>special://skin/extras/icons/apple.png</value>
     </variable>
     <variable name="Col_lyr1">
